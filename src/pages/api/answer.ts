@@ -30,6 +30,7 @@ export default async function handler(
 
     //获取并格式化表单数据
     const answerInfo = genAnswerInfo(req.body);
+    console.log(answerInfo);
 
     try {
         //提交到服务端Mock

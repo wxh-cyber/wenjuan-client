@@ -20,10 +20,6 @@ type PropsType = {
 
 // pages/question/[id].tsx
 
-//临时引用过来
-// import QuestionInput from "@/components/QuestionComponent/QuestionInput";
-// import QuestionRadio from "@/components/QuestionComponent/QuestionRadio";
-
 export default function QuestionPage(props: PropsType) {
     const { errno, data, msg = '' } = props;
 
